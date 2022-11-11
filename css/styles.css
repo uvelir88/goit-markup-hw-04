@@ -145,10 +145,19 @@ img {
 /* ----------Hero--------- */
 
 .hero {
+	max-width: 1600px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: var(--main-bg-cl);
 	color: var(--hero-text-cl);
 	padding-top: 200px;
 	padding-bottom: 200px;
+	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+		url(../images/hero/hero.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 .hero-title {
 	font-weight: 900;
