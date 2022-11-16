@@ -132,6 +132,8 @@ img {
 	line-height: calc(16 / 14);
 	letter-spacing: 0.02em;
 	color: var(--main-text-cl);
+	display: flex;
+	align-items: center;
 }
 
 .nav-link:hover,
@@ -141,7 +143,7 @@ img {
 
 .icon-header {
 	margin-right: 10px;
-	fill: var(--main-text-cl);
+	fill: currentColor;
 }
 
 .current {
