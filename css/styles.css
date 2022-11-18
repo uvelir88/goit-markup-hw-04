@@ -475,9 +475,6 @@ img {
 	padding-bottom: 94px;
 }
 
-.portfolio-list {
-}
-
 .btn-list {
 	margin-bottom: 50px;
 	justify-content: center;
@@ -530,4 +527,9 @@ img {
 	font-size: 16px;
 	line-height: calc(30 / 16);
 	color: var(--main-text-cl);
+}
+
+.portfolio-card:hover,
+.portfolio-card:focus {
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
