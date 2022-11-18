@@ -339,11 +339,6 @@ img {
 	fill: currentColor;
 }
 
-.social-link-icon:hover,
-.social-link-icon:focus {
-	fill: #ffffff;
-}
-
 /* ----------Footer--------- */
 
 .footer {
